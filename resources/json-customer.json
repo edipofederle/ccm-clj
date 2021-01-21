@@ -1,0 +1,54 @@
+[
+  {
+    "customer": "1",
+    "score": 0.5,
+    "fraudulent": false,
+    "_links": {
+      "self": {
+        "href": "http://localhost:80/api/customer/1"
+      },
+      "set-as-fraudulent": {
+        "href": "http://localhost:80/api/customer/1/fraudulent"
+      }
+    }
+  },
+  {
+    "customer": "4",
+    "score": 0.5,
+    "fraudulent": false,
+    "_links": {
+      "self": {
+        "href": "http://localhost:80/api/customer/4"
+      },
+      "set-as-fraudulent": {
+        "href": "http://localhost:80/api/customer/4/fraudulent"
+      }
+    }
+  },
+  {
+    "customer": "2",
+    "score": 0.75,
+    "fraudulent": false,
+    "_links": {
+      "self": {
+        "href": "http://localhost:80/api/customer/2"
+      },
+      "set-as-fraudulent": {
+        "href": "http://localhost:80/api/customer/2/fraudulent"
+      }
+    }
+  },
+  {
+    "customer": "3",
+		"score": 0.75,
+    "fraudulent": false,
+    "_links": {
+      "self": {
+        "href": "http://localhost:80/api/customer/3"
+      },
+      "set-as-fraudulent": {
+        "href": "http://localhost:80/api/customer/3/fraudulent"
+      }
+    }
+  }
+]
